@@ -4,4 +4,4 @@
 
 # Preview
 
-https://raw.githubusercontent.com/Lexinc/JS-Sudoku/master/project_preview.jpg
+    https://raw.githubusercontent.com/Lexinc/JS-Sudoku/master/project_preview.jpg
