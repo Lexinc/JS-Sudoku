@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Судоку</title>
+  <link type="image/png" sizes="32x32" rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1>Sudoku</h1>
+  <!-- 9x9 board -->
+  <div class="game_board">
+    <div class="main_menu">
+      <div class="level_wrapper">
+        <form name="levelForm">
+          <div class="level"><input type="radio" name="level" class="level_choose" id="level_easy">
+            <label class="level_label" for="level_easy">
+              <p class="level_text">Easy</p>
+            </label>
+          </div>
+          <div class="level"><input checked type="radio" name="level" class="level_choose" id="level_medium">
+            <label class="level_label label_changing" for="level_medium">
+              <p class="level_text">Medium</p>
+            </label>
+          </div>
+          <div class="level"><input type="radio" name="level" class="level_choose" id="level_hard">
+            <label class="level_label" for="level_hard">
+              <p class="level_text">Hard</p>
+            </label>
+          </div>
+        </form>
+      </div>
+      <button class="start" id="start_button"><span class="start_text">start</span></button>
+    </div>
+    <div class="win_caption">
+      <h2>You win!!!</h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="game_button_wrapper">
+      <button class="game_button" id="try_again_button"><span class="game_button_text">Try again</span></button>
+      <button class="game_button" id="start_new_button"><span class="game_button_text">Start new</span></button>
+    </div>
+  </div>
+  <script src="js/constant.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/actions.js"></script>
+</body>
+
+</html>

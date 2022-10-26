@@ -1,0 +1,187 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+/* radio  */
+input {
+  text-align: center;
+  font-size: 36px;
+}
+
+
+
+.level {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.level_wrapper {
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: start;
+}
+
+.level_choose {
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+
+.label_changing p {
+  color: rgb(199, 199, 3);
+  text-shadow: 3px 3px 5px #13101064;
+}
+
+/* --------------------------------------------------- */
+.main_menu {
+  display: flex;
+  width: 450px;
+  height: 450px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  position: absolute;
+  background-color: rgba(136, 136, 136, 0.938);
+}
+
+
+
+.win_caption {
+  display: none;
+  width: 450px;
+  height: 450px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  position: absolute;
+  background-color: rgba(136, 136, 136, 0.938);
+  color: rgb(102, 255, 0);
+}
+
+.win_caption h2 {
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 42px;
+}
+
+.start {
+  margin-bottom: 20px;
+  padding: 10px 40px;
+  border-radius: 50px;
+}
+
+.start:hover {
+  background-color: rgb(211, 211, 88);
+}
+
+.start_text {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.game_board {
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.tile {
+  border: 1px solid rgb(184, 184, 184);
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.tile:focus {
+  background-color: rgb(187, 235, 193);
+}
+
+.filled {
+  color: rgb(33, 189, 19);
+}
+
+.separated-row {
+  background-color: rgba(81, 81, 245, 0.3);
+}
+
+.separated-col {
+  background-color: rgba(81, 81, 245, 0.3);
+}
+
+.separated-box {
+  background-color: rgba(81, 81, 245, 0.3);
+}
+
+.error {
+  background-color: red;
+}
+
+.error:focus {
+  background-color: red;
+}
+
+
+
+.unfilled {
+  color: rgb(178, 189, 19);
+}
+
+.vertical_line__left {
+  border-left: 4px solid rgb(0, 0, 0);
+}
+
+.vertical_line__right {
+  border-right: none
+}
+
+.vertical_line__last-right {
+  border-right: 4px solid rgb(0, 0, 0);
+}
+
+.horizontal_line__top {
+  border-top: 4px solid rgb(0, 0, 0);
+}
+
+.horizontal_line__bottom {
+  border-bottom: none;
+}
+
+.horizontal_line__last-bottom {
+  border-bottom: 4px solid rgb(0, 0, 0);
+}
+
+.container {
+  width: 400px;
+  margin: 0px auto;
+}
+
+.game_button_wrapper {
+  display: none;
+  justify-content: center;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.game_button {
+  margin-bottom: 30px;
+  padding: 10px 40px;
+  border-radius: 50px;
+}
+
+.game_button:hover {
+  background-color: rgb(211, 211, 88);
+}
+
+.game_button_text {
+  text-transform: uppercase;
+  font-weight: 600;
+}
