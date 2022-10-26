@@ -4,4 +4,5 @@
 
 # Preview
 
-    https://raw.githubusercontent.com/Lexinc/JS-Sudoku/master/project_preview.jpg
+    !["Make Sudoku Game With HTML CSS JavaScript"](https://raw.githubusercontent.com/Lexinc/JS-Sudoku/master/project_preview.jpg "Make Sudoku Game With HTML CSS JavaScript")
+    
